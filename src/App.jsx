@@ -1,6 +1,7 @@
 import React from "react";
-import ParentComponent from "./useCallback2/useCallback";
-import ColorParentComponent from "./useCallback2/useCallback2";
+import ParentComponent from "./useCallback/useCallback";
+import ColorParentComponent from "./useCallback/useCallback2";
+import ExpensiveComponent from "./useMemo/ExpensiveCalculation";
 
 function App() {
 
@@ -8,6 +9,8 @@ function App() {
     <div>
       <ParentComponent />
       <ColorParentComponent />
+      <ExpensiveComponent />
+
     </div>
   )
 }
